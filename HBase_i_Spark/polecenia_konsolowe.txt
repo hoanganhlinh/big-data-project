@@ -1,0 +1,18 @@
+HBASE
+1.	Tworzenie tabeli 'airbnb' w HBase:
+
+hbase(main):008:0> create 'airbnb', 'money', 'accomodation', 'metadata'
+Created table airbnb
+Took 1.1804 seconds
+=> Hbase::Table - airbnb
+
+2.	Tworzenie tabeli 'currency_rates' w HBase:
+
+hbase(main):005:0> create 'currency_rates', 'Metadata', 'Rates'
+Created table currency_rates
+Took 0.6699 seconds
+=> Hbase::Table - currency_rates
+
+
+
+
